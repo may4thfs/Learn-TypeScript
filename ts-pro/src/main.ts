@@ -1,4 +1,6 @@
-const tname: string = "hello ts"
-console.log(tname)
-
 export {}
+
+// 测试 d.ts 文件提示效果
+import { add } from "./add"
+
+add()
